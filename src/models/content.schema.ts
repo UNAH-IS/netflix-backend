@@ -15,4 +15,4 @@ const schema = new mongoose.Schema<Content>({
   mainContent: Boolean
 });
 
-export const ContentSchema = mongoose.model('content',schema);// enlace
+export const ContentSchema = mongoose.model('contents',schema);// enlace
